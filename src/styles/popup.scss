@@ -1,0 +1,98 @@
+.profile {
+
+	.container {
+		position: fixed;
+		z-index: 9;
+		margin: auto;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		width: 600px;
+		height: 490px;
+		font-size: 14px;
+		color: black;
+		border-radius: 0.428rem;
+		background-color: white;
+		box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+		background-clip: padding-box;
+
+		.textTitlePopup {
+			font-size: 16px;
+			font-weight: 800;
+			color: rgba(0, 0, 0, 0.75);
+		}
+
+		.containerInPopup {
+			border: 1.5px solid #dddddd;
+			margin: 20px;
+		}
+
+		.borderRight {
+			border-right: 1.5px solid #dddddd;
+		}
+
+		.imgPopup {
+			width: 100%;
+		}
+
+		.starPopup {
+			width: 20px;
+			height: 20px;
+			color: #e7a612;
+		}
+
+		.greenBtn {
+			color: #28c76f;
+			font-weight: 800;
+			font-size: 16px;
+		}
+
+		.btnDetails {
+			padding: 15px 20px;
+			background-color: #428bca;
+			color: white !important;
+			font-weight: 600;
+			border-radius: 0.428rem;
+
+			&:hover {
+				background-color: #10477a;
+			}
+		}
+
+	}
+
+	.relativeMessage {
+		position: relative;
+		height: 450px;
+	}
+
+	.headerMessage {
+		border-radius: 0.428rem 0.428rem 0 0;
+		background-color: black;
+		font-weight: 600;
+		font-size: 16px;
+		color: white;
+
+	}
+
+	.iconPopupMessage {
+		color: white;
+		width: 25px;
+		height: 25px;
+	}
+
+	.btnMessage {
+		position: absolute;
+		bottom: 0;
+		margin-left: 20px !important;
+		border-radius: 0.428rem;
+		width: 80px;
+		padding: 10px 20px;
+		background-color: black !important;
+		color: white !important;
+		font-weight: 600 !important;
+	}
+
+
+}

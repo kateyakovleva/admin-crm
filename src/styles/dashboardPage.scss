@@ -1,0 +1,128 @@
+.dashboardPage {
+	background-color: transparent;
+
+	.dashboardPageItem {
+		width: 100%;
+	}
+
+	.iconCircle {
+		width: 30px;
+		height: 30px;
+	}
+
+	.dark-grey {
+		color: #746aec;
+	}
+
+	.dark-blue {
+		color: #428bca;
+	}
+
+	.dark-orange {
+		color: #ea5455;;
+	}
+
+	.dark-purple {
+		color: #5e0ab7;
+	}
+
+	.titleDashboardPage {
+		font-size: 1.2em;
+		font-weight: 600;
+	}
+
+	.subTitleDashboard {
+		font-size: 1.4em;
+		font-weight: 800;
+
+	}
+
+	.circleDiv {
+		border-radius: 50%;
+		width: 60px;
+		height: 60px;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.grey {
+		background-color: #eeedfd;
+	}
+
+	.blue {
+		background-color: #e5f9fc;
+	}
+
+	.orange {
+		background-color: #fceaea;
+	}
+
+	.purple {
+		background-color: #eee3ff;
+	}
+
+	.text-up {
+		font-weight: 800;
+		font-size: 1.1em;
+	}
+
+	.text-down {
+		font-weight: 600;
+		font-size: 0.9em;
+	}
+
+	.text-green {
+		color: #28c76f;
+		font-weight: 600;
+		font-size: 1.5em;
+	}
+
+	.text-red {
+		color: #e75656;
+		font-weight: 600;
+		font-size: 1.5em;
+	}
+
+	.text-orange {
+		color: #e7a612;
+		font-weight: 600;
+		font-size: 1.5em;
+	}
+
+	.text-in-Title {
+		font-weight: 600;
+		font-size: 1em;
+		color: rgba(0, 0, 0, 0.75);
+	}
+
+	.line {
+		width: 100%;
+		height: auto;
+	}
+
+	.btnView {
+		padding: 10px;
+		width: 20%;
+		border-radius: 0.428rem;
+		background-color: #ddd;
+		color: rgba(0, 0, 0, 0.75) !important;
+		font-weight: 600;
+		font-size: 14px;
+
+		&:hover {
+			background-color: #000;
+			color: #fff !important;
+		}
+
+	}
+
+	.bName {
+		border-radius: 0.428rem;
+		border: 1px solid rgba(0, 0, 0, 0.2);
+
+		&:hover {
+			background-color: #f3f3f3;
+		}
+	}
+
+}

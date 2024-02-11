@@ -1,0 +1,23 @@
+.notes {
+	background: #f6f7f7;
+	border: 1px solid #e7e8e8;
+	margin: 20px 0;
+	padding: 10px;
+
+	.notesTitle {
+		font-weight: 600;
+		font-size: 20px;
+		color: #4f4f4f;
+	}
+
+	.notesUl {
+		padding-inline-start: 20px !important;
+	}
+
+	.notesLi {
+		font-size: 13px;
+		line-height: 25px;
+		color: #4f4f4f;
+		font-weight: 600;
+	}
+}

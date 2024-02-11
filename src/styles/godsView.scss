@@ -1,0 +1,93 @@
+.godsView {
+	width: 100%;
+
+	.btnGodsView {
+		width: 20%;
+		border-radius: 0.428rem;
+		border: 1px solid rgba(0, 0, 0, 0.2);
+		font-size: 16px;
+		color: black !important;
+		padding: 8px;
+
+		&:hover {
+			background-color: #f3f3f3;
+		}
+	}
+
+	.btnGodsViewGreen {
+		width: 10%;
+		border-radius: 0.428rem;
+		border: 1px solid #007d76;
+		background-color: #007d76;
+		font-size: 16px;
+		color: white !important;
+		font-weight: 600;
+		padding: 8px;
+	}
+
+	.btnGodsViewBlue {
+		width: 45%;
+		border-radius: 0.428rem;
+		border: 1px solid #10477a;
+		background-color: #428bca;
+		font-size: 16px;
+		color: white !important;
+		padding: 8px;
+
+		&:hover {
+			background-color: #10477a;
+		}
+	}
+
+	.greenTitle {
+		background-color: #007d76;
+		font-size: 16px;
+		color: white !important;
+		font-weight: 600;
+		padding: 8px;
+	}
+
+	.scrollGodsView {
+		border: 1px solid rgba(0, 0, 0, 0.2);
+	}
+
+	.container {
+		height: 400px;
+		position: relative;
+	}
+
+	.itemPerson {
+		border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+
+		.imgPerson {
+			width: 12%;
+			padding: 10px;
+			position: relative;
+
+			.status {
+				position: absolute;
+				right: 5px;
+				bottom: 5px;
+				z-index: 9;
+				background-color: #007d76;
+				border-radius: 50%;
+				width: 20px;
+				height: 20px;
+			}
+		}
+
+		.textName {
+			font-size: 16px;
+			font-weight: 600;
+		}
+
+		.textId {
+			font-size: 14px;
+			font-weight: 600;
+		}
+
+		&:hover {
+			background-color: #f9f9f9;
+		}
+	}
+}

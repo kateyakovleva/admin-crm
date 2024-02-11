@@ -1,0 +1,46 @@
+.warnings {
+	z-index: 99;
+	position: fixed;
+	top: 50px;
+	right: 50px;
+	font-size: 16px;
+	font-weight: 600;
+
+
+	.alert {
+		padding: 20px;
+		border: 1px solid;
+		border-radius: 0.328rem;
+	}
+
+	.info {
+		color: #004085;
+		background-color: #cce5ff;
+		border-color: #b8daff;
+
+	}
+
+	.danger {
+		color: #721c24;
+		background-color: #f8d7da;
+		border-color: #f5c6cb;
+	}
+
+	.success {
+		color: #155724;
+		background-color: #d4edda;
+		border-color: #c3e6cb;
+	}
+
+	.iconWarnings {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+		width: 25px;
+		height: 25px;
+		color: rgba(0, 0, 0, 0.75);
+		cursor: pointer;
+	}
+}
+
+

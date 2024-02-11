@@ -1,0 +1,53 @@
+.invoice {
+	.containerInvoice {
+		border: 1.5px solid #dddddd;
+		border-radius: 0.428rem;
+	}
+
+	.orderData {
+		padding: 10px 0;
+		background-color: #f5f5f5;
+		border-radius: 0.428rem 0.428rem 0 0;
+	}
+
+	.boldTitle {
+		color: rgb(0, 0, 0);
+		font-weight: 600;
+		font-size: 16px;
+	}
+
+	.boldPrice {
+		padding: 10px 5px;
+		color: rgb(0, 0, 0);
+		font-weight: 600;
+		font-size: 14px;
+	}
+
+	.thinTitle {
+		color: rgb(0, 0, 0);
+
+	}
+
+	.iconInvoice {
+		margin: 5px 5px 5px 0;
+		width: 15px;
+		height: 15px;
+		color: rgb(12, 87, 2);
+	}
+
+	.star {
+		width: 10px;
+		height: 10px;
+		color: #e7a612;
+	}
+
+	.imgInvoice {
+		width: 70px;
+		height: 70px;
+		border-radius: 50%;
+	}
+
+	.border-dotted {
+		border: dotted 2px #000000;
+	}
+}

@@ -1,0 +1,57 @@
+.loginPage {
+	flex-direction: row;
+	height: 100vh;
+
+	.left-part {
+		background-color: var(--first-color);
+		align-items: center;
+		padding: 2%;
+		width: 40%;
+		color: white;
+		text-align: center;
+
+		.imgLogo {
+			width: 150px;
+		}
+	}
+
+	.right-part {
+		align-items: center;
+		padding-top: 2%;
+		width: 100%;
+		color: rgba(0, 0, 0, 0.75);
+
+		.loginPanel {
+			align-items: start;
+
+			.textInput {
+				font-weight: 600;
+			}
+
+			.inputLoginPage {
+				outline: none;
+				padding: 0 10px;
+				border: none;
+				font-weight: 300;
+				color: #9a9a9a;
+				background-color: var(--second-color);
+				border-radius: 10px;
+				width: 615px;
+				height: 50px;
+
+			}
+		}
+
+		.signIn {
+			font-weight: 600;
+			border: none;
+			text-align: center;
+			color: white !important;
+			background-color: var(--first-color);
+			border-radius: 10px;
+			width: 630px;
+			height: 50px;
+			cursor: pointer;
+		}
+	}
+}

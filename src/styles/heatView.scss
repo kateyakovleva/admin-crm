@@ -1,0 +1,41 @@
+.heatView {
+	width: 100%;
+
+	.iconHeatView {
+		margin: 0 10px 0 0;
+		width: 15px;
+		height: 15px;
+		color: rgba(0, 0, 0, 0.75);
+	}
+
+	.textHeatView {
+		font-size: 14px;
+		font-weight: 600;
+		color: rgba(0, 0, 0, 0.75);
+	}
+
+	.btnHeatView {
+		border-radius: 0.428rem;
+		width: 12%;
+		height: 60px;
+		margin-right: 10px;
+		padding: 15px;
+		background-color: #2684ff;
+		color: #fff !important;
+		font-size: 16px;
+		font-weight: 600;
+
+		&:hover {
+			background-color: white;
+			color: #2684ff !important;
+			border: #2684ff 1px solid !important;
+		}
+	}
+
+	.containerMap {
+		width: 98.5%;
+		height: 600px;
+		position: relative;
+	}
+
+}

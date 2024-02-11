@@ -1,0 +1,184 @@
+.containerTable {
+	font-weight: 300;
+	font-size: 0.8em;
+
+	tbody tr:nth-child(odd) {
+		background-color: #f6f6f6;
+	}
+
+	.table {
+		width: 100%;
+		border: 1px solid #dddddd;
+		border-bottom: 0;
+		border-spacing: 0;
+		background-color: transparent;
+
+		.thead {
+			color: #4f4f4f;
+			font-weight: 600;
+		}
+
+		.imgBanner {
+			width: 60px;
+			height: 60px;
+		}
+
+		.thInput {
+			width: 5%;
+			text-align: center;
+			padding: 8px;
+			border-bottom: 1px solid #dddddd;
+		}
+
+		.thIcon {
+			width: 30px;
+			height: 30px;
+			color: rgba(0, 0, 0, 0.5);
+		}
+
+		.thText {
+			border-bottom: 1px solid #dddddd;
+			border-left: 1px solid #dddddd;
+			text-align: start;
+			padding-left: 10px;
+			color: black;
+		}
+
+		.trText {
+			border-bottom: 1px solid #ffffff;
+			border-left: 1px solid #ffffff;
+			text-align: start;
+			padding-left: 10px;
+			font-weight: 600;
+			line-height: 1.8;
+
+			&.trTextGreen {
+				border-bottom: 1px solid #dddddd;
+				border-left: 1px solid #dddddd;
+				text-align: start;
+				padding-left: 10px;
+				font-weight: 600;
+				line-height: 1.8;
+				color: black;
+				background-color: #bddac5;
+			}
+		}
+
+		.thText-center {
+			width: 7%;
+			border-bottom: 1px solid #dddddd;
+			border-left: 1px solid #dddddd;
+			text-align: center;
+			padding: 0 5px;
+		}
+
+		.thText-right {
+			width: 7%;
+			border-bottom: 1px solid #dddddd;
+			border-left: 1px solid #dddddd;
+			text-align: right;
+			padding: 0 5px;
+		}
+
+		.invoiceBtn {
+			background-color: #428bca !important;
+			border-radius: 0.428rem !important;
+			color: white !important;
+			font-weight: 800 !important;
+			padding: 10px !important;
+
+			&:hover {
+				background-color: #10477a !important;
+			}
+		}
+	}
+
+	.entries {
+		color: #4f4f4f;
+		font-size: 12px;
+		font-weight: 600;
+	}
+
+	.amount {
+		font-weight: 600;
+		margin: 5px 0;
+		font-size: 15px;
+	}
+
+	.btnAddbalance {
+		background-color: #28c76f;
+		color: white !important;
+		font-weight: 600;
+		padding: 3px 6px;
+		border-radius: 0.328rem;
+
+		&:hover {
+			background-color: #21ab5e;
+		}
+	}
+
+	.iconBlock {
+		width: 20px;
+		height: 20px;
+		color: black;
+		margin-right: 3px;
+	}
+
+	.btnBlock {
+		margin: 5px;
+		padding: 10px;
+		border-radius: 0.428rem;
+		background-color: #dddddd;
+		color: #000000 !important;
+		font-weight: 600;
+		font-size: 14px;
+	}
+
+	.buttonSettings {
+		position: relative;
+
+		.btnSettings {
+			position: absolute;
+			top: -40px;
+			left: -40px;
+			background-color: #ffffff;
+			width: 50px;
+			height: 150px;
+			border-radius: 0.428rem;
+			flex-flow: row wrap;
+			justify-content: center;
+			align-content: space-between;
+			padding: 10px 0;
+			box-shadow: 0 2px 10px 0 rgb(34 41 47 / 55%);
+
+			&::after {
+				border-color: transparent transparent transparent #fff;
+				border-style: solid;
+				border-width: 12px 0 14px 18px;
+				content: "";
+				display: block;
+				height: 0;
+				margin: 0 auto;
+				position: absolute;
+				right: -15px;
+				top: 43px;
+			}
+		}
+	}
+
+	.linkMassage {
+		font-weight: 600;
+		text-decoration: #10477a underline !important;
+		color: #10477a !important;
+
+	}
+
+	.btnContactUs {
+		color: black !important;
+		font-weight: 600;
+	}
+
+	.imgCountry {
+		width: 30px;
+	}
+}

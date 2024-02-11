@@ -1,0 +1,36 @@
+.verification {
+
+	.container {
+		position: fixed;
+		z-index: 9;
+		margin: auto;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		width: 90%;
+		height: 80%;
+		padding: 20px;
+		font-size: 14px;
+		color: black;
+		border-radius: 0.428rem;
+		background-color: white;
+		box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+		background-clip: padding-box;
+	}
+
+	.profileID {
+		width: 800px;
+		height: 600px;
+	}
+
+	.btnEditGreen:hover {
+		background-color: #21ab5e;
+		color: white !important;
+	}
+
+	.btnEditRed:hover {
+		background-color: #ff0000;
+		color: white !important;
+	}
+}
